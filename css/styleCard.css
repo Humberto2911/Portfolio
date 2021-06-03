@@ -1,0 +1,79 @@
+.contentCard{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+.contentCard .card{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 320px;
+  height: 200px;
+  text-align: center;
+  margin-bottom:20px;
+  border-radius: 20px;
+
+  overflow:hidden;
+}
+.contentCard .card h2 {
+  padding: 10px;
+  opacity: 0.9;
+  color: hsl(0, 94%, 66%);
+  background:#222;
+
+  transform:translateY(150%);
+
+  transition: .3s;
+}.contentCard .card:hover h2{
+  transform:translateY(-65px);
+}
+.contentCard .card p {
+  padding: 10px;
+
+  opacity: 0;
+  color: #fff;
+  background: #2225;
+
+  transform:translateY(200px);
+
+  transition:.2s;
+  
+  
+}.contentCard .card:hover p{
+  opacity: 1;
+  transform:translateY(0px);
+  transition:.3s;
+}
+.contentCard .card a{
+  padding:10px;
+
+  opacity: 0;
+  color: #f1f1f1;
+  background: #888888;
+  transition:.1s;
+  transform:translateY(20px);
+
+}.contentCard .card:hover a{
+  opacity: 1;
+  transform:translateY(0);
+}.contentCard .card a:hover{
+  background: #666666;;
+} 
+.contentCard .card img{
+  position: absolute;
+
+  width: 240%;
+
+  transition: 1s;
+}.contentCard .card:hover img{
+  filter: blur(10px);
+  width: 300%;
+  
+}

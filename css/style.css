@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+  
+  font-family: 'Saira', sans-serif;
+  background-color:hsl(0, 0%, 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
+
+
+}
+
+/* ? SHARE */
+section {
+  padding: 15vh 0;
+
+}
+
+
+/*Home*/
+
+#logoPrincipal{
+
+  width: 40px;
+}
+
+#imgHome{
+
+  margin-top:160px ;
+}
+
+#principalPrueba{
+
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background:url(../img/code.jpg);
+  align-items: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000;
+  
+  margin-top: 0px;
+  background-size: 100% 100%;
+  width: 100%;
+
+
+}
+
+#principalPrueba:before{
+
+
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color:rgba(0,0,0,.7);
+
+
+} 
+
+#principalPrueba .box{
+
+
+  position: relative;
+  width:550px;
+  height: 210px;
+  padding: 50px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  overflow: hidden;
+  color: #000;
+  border-radius: 12px;
+  margin-top: -200px;
+
+ 
+ }
+
+
+
+#principalPrueba .box:before{
+
+content: '';
+position: absolute;
+top: -20px;
+left: -20px;
+right: -20px;
+bottom: -20px;
+background:#ff0;
+background:url(../img/code.jpg);
+background-attachment: fixed;
+filter: blur(130px);
+
+
+
+
+ } 
+
+ #principalPrueba .box h2{
+
+  position: relative;
+  margin: 0 0 10px;
+  padding: 0;
+  font-size: 34px;
+  z-index: 2;
+  color: white;
+
+ 
+ }
+
+ #principalPrueba .box p{
+
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  z-index: 2;
+  color: white;
+
+ }
+ 
+
+ /*About*/
+
+
+
+#txtAbout{
+
+/*   color:#0275d8; */
+  /* font-weight: bold; */
+  
+  color: black;
+  font-size: 36px;
+
+  
+
+}
+
+#txtWho{
+
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: bold;
+  font-size:20px;
+  margin-bottom: 10px;
+
+}
+
+
+#txtWeb{
+
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: bold;
+  font-size:16px;
+  margin-bottom: 20px;
+
+}
+
+
+#txtDescripcion{
+
+  text-align: justify;
+  text-justify: inter-word;
+  font-size:16px;
+  margin-bottom:100px;
+  
+
+}
+
+
+
+.btnCv{
+
+  background-color: hsl(0, 94%, 66%);
+  border-color:hsl(0, 94%, 66%) ;
+  box-shadow: 0 .2rem .5rem hsl(0, 94%, 66%);
+  color: white;
+  text-decoration: none;
+  width: 40px; 
+  padding: 15px 15px 15px 15px;
+  font-style:bold;
+  border-radius: 5px;
+  font-size: 18px;
+  
+
+}
+
+.btnCv:hover{
+  background-color: #fff;
+  color: hsl(0, 94%, 66%);
+  text-decoration: none;
+  font-style: bold;
+
+}
+
+#BorderUno{
+
+  background: hsl(0, 100%, 68%);
+}
+
+
+
+#about {
+
+  margin-bottom: -120px;
+}
+
+
+
+
+/*Services*/
+
+#services{
+
+ margin-top: -60px;
+
+}
+
+#BorderDos{
+
+  background: hsl(0, 100%, 68%);
+}
+
+
+
+
+
+/* ? CONTACTO */
+
+
+#BorderTres{
+
+  background: hsl(0, 100%, 68%);
+}
+
+
+#contact{
+
+ margin-top: 80px;
+ margin-bottom: -60px;
+}
+
+#contact button{
+
+margin-top:60px;
+font-size: 18px;
+width: 80px;
+
+}
+
+
+.btn{
+  background-color: hsl(0, 94%, 66%);
+  border-color:hsl(0, 94%, 66%) ;
+  box-shadow: 0 .2rem .5rem hsl(0, 94%, 66%);
+  color: white;
+  font-size: 18px;
+  padding:9px;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: hsl(0, 94%, 66%);
+}
+
+
+
+#status{
+
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+
+  border-radius: 8px;
+  margin-top: 20px;
+
+}
+
+#status.success{
+
+  background: yellowgreen;
+  opacity:0.7;
+  animation: status 4s ease delay forwards;
+
+
+}
+
+#status.error{
+
+  background:red;
+  color: white;
+  animation: status 4s ease delay forwards;
+
+
+}@keyframes status{
+0%{
+    opacity: 1;
+    pointer-events: all;
+  }
+90%{
+    opacity: 1;
+    pointer-events: all;
+  }
+100%{
+    opacity: 0;
+    pointer-events: more;
+  }
+}
+
+
+
+/* ? FOOTER */
+
+footer{
+
+background: #000;
+height: 70px;  
+text-align: center;
+
+}
+
+.copy{
+
+  margin-top: 22px;
+ 
+}
+
+.copy .copy-link{
+
+  color: white;
+  
+ 
+}
+
+ 
+/* ==========================================================================
+   Inician estilos MEDIA QUERIES Móvil px a px
+   ========================================================================== */
+
+@media only screen and (min-width:320px) and (max-width:479px) {
+  
+  #principalPrueba{
+
+    position: relative;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    background:url(../img/code.jpg);
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    
+    margin-top: 0px;
+    background-size: 100% 100%;
+    width: 100%;
+    margin-bottom: -160px;
+  
+  
+  }
+  
+  #principalPrueba .box{
+
+
+    position: relative;
+    width:100%;
+    height: 150px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: hidden;
+    color: #000;
+    border-radius: 12px;
+    margin-top: -150px;
+  
+   
+   }
+  
+   #principalPrueba .box h2{
+
+    position: relative;
+    margin-left: -19px;
+    font-size:19px;
+   
+    color: white;
+  
+   
+   }
+  
+   #principalPrueba .box p{
+  
+    position: relative;
+    margin-left: -19px;
+    font-size: 14px;
+   
+    color: white;
+  
+   }
+
+
+   #about {
+
+    margin-top:-300px;
+  }
+
+  #slide{
+     position: relative;
+    margin-top: 270px;
+    margin-right: 28px;
+    margin-bottom: -20px;
+  }
+
+  #services{
+
+    margin-bottom: -140px;
+  }
+  
+  #portfolioSec{
+
+    margin-bottom: -50px;
+  }
+
+#containerContacto{
+
+  margin-bottom: -120px;
+}
+
+
+footer{
+ margin-bottom:-30px;
+ 
+}
+
+
+
+}
+
+
+/* ==========================================================================
+   Inician estilos MEDIA QUERIES Móvil 480 en adelante
+   ========================================================================== */
+
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+
+
+
+
+}
+
+/* ==========================================================================
+   Inician estilos MEDIA QUERIES Móvil 768 en adelante
+   ========================================================================== */
+
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+
+
+}
+
+
+/* ==========================================================================
+   Inician estilos MEDIA QUERIES Móvil 1024 en adelante
+   ========================================================================== */
+
+
+@media only screen and (min-width:1024px) and (max-width:1279px) {
+
+
+
+
+
+
+
+}
+
+
+
+
+@media only screen and (min-width:1280px) and (max-width:1281px){
+
+
+
+
+}
+
+

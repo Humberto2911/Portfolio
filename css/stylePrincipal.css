@@ -1,0 +1,41 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+.left{
+    
+    position: relative;
+    margin-top:300px ;
+    
+}
+
+.wrapper .right{
+    position: relative;
+}
+.wrapper .right .box{
+    height: 350px;
+    width: 130%;
+    background-color: hsl(207, 33%, 95%);
+    top: -40%;
+    left: 0;
+    z-index: -9;
+    position: absolute;
+    border-bottom-left-radius: 80px;
+}
+.content{
+    color: hsl(230, 11%, 40%);
+    font-size: 1.3rem;
+}
+.bottom-show{
+    display: flex;
+    align-items: center;
+}
+.bottom-show p{
+    font-weight: 400;
+}
+    
+
+/* media queries */

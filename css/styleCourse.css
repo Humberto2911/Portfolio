@@ -1,0 +1,12 @@
+.containerImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.containerImg img {
+    width: 95px;
+    height: 90px;
+    box-shadow: 12px 12px 7px #444;
+}
