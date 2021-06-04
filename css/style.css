@@ -368,9 +368,13 @@ text-align: center;
     width: 100%;
     
     }
-
-
   
+   nav.sticky#principalPrueba{
+      background:url(../img/codeMobile.jpg);
+      
+    }
+  
+
     nav.sticky#logoPrincipal{
       position: relative;
       margin-left: 100px;
