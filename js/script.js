@@ -1,12 +1,15 @@
 /*Slider Imagenes Habilidades */
 
 let imgArray = [
+    './multimedia/1.png',
+    './multimedia/2.png',
+    './multimedia/3.png',
     './multimedia/4.png',
     './multimedia/5.png',
-    './multimedia/6.png',
-    './multimedia/9.png',
-    './multimedia/10.png',
-    './multimedia/11.png'
+    './multimedia/7.svg',
+    './multimedia/6.png'
+    
+   
 ];
 
 let img = document.getElementById('slide');

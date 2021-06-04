@@ -48,9 +48,10 @@ section {
   background-color: #000;
   
   margin-top: 0px;
+  margin-bottom: -45px;
   background-size: 100% 100%;
   width: 100%;
-
+  
 
 }
 
@@ -210,7 +211,7 @@ filter: blur(130px);
 
 
 #about {
-
+ 
   margin-bottom: -120px;
 }
 
@@ -222,6 +223,7 @@ filter: blur(130px);
 #services{
 
  margin-top: -60px;
+ margin-bottom: -50px;
 
 }
 
@@ -347,7 +349,34 @@ text-align: center;
    ========================================================================== */
 
 @media only screen and (min-width:320px) and (max-width:479px) {
+
+
+  body {
   
+    font-family: 'Saira', sans-serif;
+    background-color:hsl(0, 0%, 100%);
+    min-height: 100vh;
+    overflow-x: hidden;
+  
+  
+  }
+  nav{
+    position: fixed;
+    padding: 20px 100px;
+    background:black;
+    opacity:0.6;
+    width: 100%;
+    
+    }
+
+
+  
+    nav.sticky#logoPrincipal{
+      position: relative;
+      margin-left: 100px;
+      
+    }
+
   #principalPrueba{
 
     position: relative;
@@ -361,11 +390,10 @@ text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #000;
-    
     margin-top: 0px;
     background-size: 100% 100%;
     width: 100%;
-    margin-bottom: -160px;
+    margin-bottom: -130px;
   
   
   }
@@ -374,7 +402,7 @@ text-align: center;
 
 
     position: relative;
-    width:100%;
+    width:300px;
     height: 150px;
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     overflow: hidden;
@@ -388,8 +416,8 @@ text-align: center;
    #principalPrueba .box h2{
 
     position: relative;
-    margin-left: -19px;
-    font-size:19px;
+    margin-left: -27px;
+    font-size:18px;
    
     color: white;
   
@@ -399,7 +427,7 @@ text-align: center;
    #principalPrueba .box p{
   
     position: relative;
-    margin-left: -19px;
+    margin-left: -27px;
     font-size: 14px;
    
     color: white;
@@ -440,7 +468,28 @@ footer{
  
 }
 
+#portfolioSec{
+  padding-bottom: 65px;
+}
+#portfolioSec .card{
 
+  margin-bottom: 70px;
+  margin-top: 40px;
+  width: 270px;
+  height: 180px;
+
+}
+
+.contentCard{
+
+  height: auto;
+}
+
+.contentCard .card h2 {
+
+  margin-top: -30px;
+  
+}
 
 }
 
@@ -453,6 +502,147 @@ footer{
 @media only screen and (min-width:480px) and (max-width:767px) {
 
 
+  body {
+  
+    font-family: 'Saira', sans-serif;
+    background-color:hsl(0, 0%, 100%);
+    min-height: 100vh;
+    overflow-x: hidden;
+  
+  
+  }
+  nav{
+    position: fixed;
+    padding: 20px 100px;
+    background:black;
+    opacity:0.6;
+    width: 100%;
+    
+    }
+
+
+  
+    nav.sticky#logoPrincipal{
+      position: relative;
+      margin-left: 100px;
+      
+    }
+
+  #principalPrueba{
+
+    position: relative;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    background:url(../img/code.jpg);
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    margin-top: 0px;
+    background-size: 100% 100%;
+    width: 100%;
+    margin-bottom: -130px;
+  
+  
+  }
+  
+  #principalPrueba .box{
+
+
+    position: relative;
+    width:300px;
+    height: 150px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: hidden;
+    color: #000;
+    border-radius: 12px;
+    margin-top: -150px;
+  
+   
+   }
+  
+   #principalPrueba .box h2{
+
+    position: relative;
+    margin-left: -27px;
+    font-size:18px;
+   
+    color: white;
+  
+   
+   }
+  
+   #principalPrueba .box p{
+  
+    position: relative;
+    margin-left: -27px;
+    font-size: 14px;
+   
+    color: white;
+  
+   }
+
+
+   #about {
+
+    margin-top:-300px;
+    margin-bottom:40px;
+  }
+
+  #slide{
+     position: relative;
+    margin-top: 350px;
+    margin-right: 28px;
+    margin-bottom: -20px;
+  }
+
+  #services{
+
+    margin-bottom: -100px;
+  }
+  
+  #portfolioSec{
+
+    margin-bottom: -50px;
+  }
+
+#containerContacto{
+
+  margin-bottom: -120px;
+}
+
+
+footer{
+ margin-bottom:-30px;
+ 
+}
+
+#portfolioSec{
+  padding-bottom: 65px;
+}
+#portfolioSec .card{
+
+  margin-bottom: 70px;
+  margin-top: 40px;
+  width: 270px;
+  height: 180px;
+
+}
+
+.contentCard{
+
+  height: auto;
+}
+
+.contentCard .card h2 {
+
+  margin-top: -30px;
+  
+}
+
 
 
 }
@@ -463,8 +653,38 @@ footer{
 
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
+  body {
+  
+    font-family: 'Saira', sans-serif;
+    background-color:hsl(0, 0%, 100%);
+    min-height: 100vh;
+    overflow-x: hidden;
+  
+  
+  }
 
-
+  #portfolioSec{
+    padding-bottom: 65px;
+  }
+  #portfolioSec .card{
+  
+    margin-bottom: 35px;
+    margin-top: 40px;
+    width: 270px;
+    height: 180px;
+  
+  }
+  
+  .contentCard{
+  
+    height: auto;
+  }
+  
+  .contentCard .card h2 {
+  
+    margin-top: -30px;
+    
+  }
 
 }
 
@@ -475,8 +695,38 @@ footer{
 
 
 @media only screen and (min-width:1024px) and (max-width:1279px) {
+  body {
+  
+    font-family: 'Saira', sans-serif;
+    background-color:hsl(0, 0%, 100%);
+    min-height: 100vh;
+    overflow-x: hidden;
+  
+  
+  }
 
-
+  #portfolioSec{
+    padding-bottom: 65px;
+  }
+  #portfolioSec .card{
+  
+    margin-bottom: 35px;
+    margin-top: 40px;
+    width: 270px;
+    height: 180px;
+  
+  }
+  
+  .contentCard{
+  
+    height: auto;
+  }
+  
+  .contentCard .card h2 {
+  
+    margin-top: -30px;
+    
+  }
 
 
 
@@ -488,8 +738,26 @@ footer{
 
 
 @media only screen and (min-width:1280px) and (max-width:1281px){
+  body {
+  
+    font-family: 'Saira', sans-serif;
+    background-color:hsl(0, 0%, 100%);
+    min-height: 100vh;
+    overflow-x: hidden;
+  
+  
+  }
+  
+  #portfolioSec{
+    padding-bottom: 40px;
+  }
 
-
+  #portfolioSec .card{
+  
+    margin-bottom:80px;
+    
+  
+  }
 
 
 }

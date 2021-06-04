@@ -90,40 +90,6 @@ header{
   }
 
 
-  @media (max-width:923px){
-  
-    .wrapper{
-        grid-template-columns: 100%;
-        grid-auto-flow: dense;
-        margin: 1.5rem 0;
-    }
-
-    .wrapper .right{
-        grid-row: 1;
-        width: 100%;
-        margin: 3rem 0;
-        position: relative;
-    }
-    .wrapper .left{
-        width: 100%;
-        margin-bottom: 3rem 0;
-        text-align: start;
-    }
-    .wrapper .right img{
-        width: 120%;
-    }
-    .wrapper .right .box{
-        transform: translateX(250px);
-        height: 450px;
-        top: -55%;
-    }
-    .bottom-show{
-        justify-content: flex-start;
-        margin-bottom: 3rem;
-    }
-  } 
-
-
 
 
   /**************/
@@ -153,15 +119,7 @@ header{
     }
 
 
-  nav .logo {
-    float: left;
-    width: 40%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    font-size: 24px;
-    color: #fff;
-  }
+ 
   nav .links {
     float: right;
     padding: 0;
@@ -215,6 +173,7 @@ header{
       width: auto;
       justify-content: center;
     }
+    
     nav .links {
       float: none;
       position: fixed;
