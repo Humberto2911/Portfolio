@@ -370,11 +370,24 @@ text-align: center;
     }
   
    nav.sticky#principalPrueba{
-      background:url(../img/codeMobile.jpg);
+    position: relative;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    background:url(../img/codeMobile.jpg);
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    margin-top: 0px;
+    background-size: 100% 100%;
+    width: 100%;
+    margin-bottom: -130px
       
     }
   
-
     nav.sticky#logoPrincipal{
       position: relative;
       margin-left: 100px;
@@ -383,9 +396,23 @@ text-align: center;
 
   #principalPrueba{
 
- 
+    position: relative;
+    height: 480px;
+    display: flex;
+    justify-content: center;
     background:url(../img/codeMobile.jpg);
-
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    margin-top: 0px;
+    background-size: 100% 100%;
+    width: 100%;
+    margin-bottom: -130px;
+  
+  
   }
   
   #principalPrueba .box{
