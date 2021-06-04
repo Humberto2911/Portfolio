@@ -455,7 +455,7 @@ text-align: center;
    #about {
 
     margin-top:-300px;
-    margin-bottom: 50px;
+   
   }
 
   #slide{
@@ -466,7 +466,7 @@ text-align: center;
   }
 
   #services{
-
+    margin-top: 50px;
     margin-bottom: -140px;
   }
   
